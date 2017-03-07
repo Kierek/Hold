@@ -1,7 +1,5 @@
 package com.kierek.gameObjects;
 
-
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.math.Circle;
 
 public class BallChecker {
@@ -9,7 +7,6 @@ public class BallChecker {
     private static final String TAG = "BallChecker";
 
     private static final int INTERPOLATION_SPEED = 20;
-    private static final int MAX_RADIUS = 60;
 
     private int touchPointer;
     private Circle bounds;
